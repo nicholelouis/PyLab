@@ -1,0 +1,22 @@
+# Ignorar el entorno virtual
+venv/
+.env/
+.venv/
+
+# Archivos generados por Pelican
+output/
+cache/
+*.pyc
+__pycache__/
+*.log
+
+# Archivos de configuración específicos del sistema
+.DS_Store
+Thumbs.db
+
+# Archivos relacionados con IDEs
+.idea/
+.vscode/
+
+# Ignorar el archivo de configuración local
+pelicanconf.pyc
