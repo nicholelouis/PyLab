@@ -17,10 +17,10 @@ AUTHOR_FEED_RSS = None
 
 # Blogroll
 LINKS = (
-    ("Pelican", "https://getpelican.com/"),
-    ("Python.org", "https://www.python.org/"),
-    ("Jinja2", "https://palletsprojects.com/p/jinja/"),
-    ("You can modify those links in your config file", "#"),
+    ('Inicio', '/index.html'),
+    ('Servicios', '/servicios.html'),
+    ('Blog', '/blog/'),
+    ('Contacto', '/contacto.html'),
 )
 
 # Social widget
@@ -33,3 +33,21 @@ DEFAULT_PAGINATION = 3
 
 # Uncomment following line if you want document-relative URLs when developing
 # RELATIVE_URLS = True
+
+# Para los html
+STATIC_PATHS = ['images']
+PAGE_URL = '{slug}.html'
+PAGE_SAVE_AS = '{slug}.html'
+
+# Para los post _/blog 
+ARTICLE_URL = 'blog/{slug}/'    # URL para las entradas del blog
+ARTICLE_SAVE_AS = 'blog/{slug}/index.html'  # Ubicación del archivo generado
+
+# Categorias
+CATEGORY_URL = 'categoria/{slug}/'
+CATEGORY_SAVE_AS = 'categoria/{slug}/index.html'
+
+#Tags
+
+TAG_URL = 'etiqueta/{slug}/'
+TAG_SAVE_AS = 'etiqueta/{slug}/index.html'
