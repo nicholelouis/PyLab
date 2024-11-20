@@ -18,9 +18,8 @@ AUTHOR_FEED_RSS = None
 # Blogroll
 LINKS = (
     ('Inicio', '/index.html'),
-    ('Servicios', '/servicios.html'),
-    ('Blog', '/blog/'),
-    ('Contacto', '/contacto.html'),
+    ('Servicios', '/nuestros-servicios.html'),
+    ('Contacto', '/contactanos.html'),
 )
 
 # Social widget
@@ -34,6 +33,7 @@ DEFAULT_PAGINATION = 3
 # Uncomment following line if you want document-relative URLs when developing
 # RELATIVE_URLS = True
 
+THEME = '/Users/nikki/2DAW/proyestosDSW/PyLab/main/themes/pelican-chunk'
 # Para los html
 STATIC_PATHS = ['images']
 PAGE_URL = '{slug}.html'
